@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Doaku - Aplikasi Doa Islami",
+    "slug": "doaku-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "doaku",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "owner": "athlihzarmdn",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#0ABAB5"
+      },
+      "package": "com.athlihzarmdn.doaku",
+      "versionCode": 1
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ],
+      "expo-font",
+      "react-native-google-mobile-ads"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
